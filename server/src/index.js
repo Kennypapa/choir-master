@@ -9,7 +9,6 @@ const AuthEndpoints = require('./auth/index');
 // Auth endpoins
 AuthEndpoints
 
-
 //Create song endpoint
 app.post('/api/songs/create', (req, res) => {
     const { title, score, song_key, id, author } = req.body;

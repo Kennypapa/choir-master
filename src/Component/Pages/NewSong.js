@@ -100,6 +100,7 @@ const NewSong = ({ song, update }) => {
 
 
   return (
+    
     <div className="my-5">
       <section className="bg-gray-50 dark:bg-gray-900 pt-32 pb-20">
         <div className="flex flex-col items-center justify-center px-6 mx-auto md:min-h-[50vh] lg:py-0">
